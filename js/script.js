@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('scroll', () => {
             const onScreen = isElementOnScreen(backToTop);
             backToTop.style.opacity = onScreen ? '1' : '0';
-            backToTop.style.transition = 'opacity 0.5s ease-in-out'; 
+            backToTop.style.transition = 'opacity 0.5s ease-in-out';
         });
     }
 
     if (gameCount) {
-        animateCount(gameCount, 17, 45, 'lime');
+        animateCount(gameCount, 52, 52, 'lime');
     }
 
     if (visitCount) {
-        animateCount(visitCount, 40, 19, 'lime');
+        animateCount(visitCount, 40, 40, 'lime');
     }
 
     function isElementOnScreen(element) {
@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
             element.textContent = number;
             if (number === maxValue) {
                 const parent = element.parentElement;
-                const icon = parent.querySelector('i'); 
-                icon.style.color = color; 
-                icon.style.transition = 'color 0.5s ease-in-out'; 
+                const icon = parent.querySelector('i');
+                icon.style.color = color;
+                icon.style.transition = 'color 0.5s ease-in-out';
             }
             number++;
             if (number > maxValue) {
