@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (gameCount) {
-        animateCount(gameCount, 52, 52, 'lime');
+        animateCount(gameCount, 52, 30, 'lime');
     }
 
     if (visitCount) {
