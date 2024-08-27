@@ -1,5 +1,12 @@
 /* Generate overwrite default font to Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+:root {
+    --ifm-font-size-base: 100%;
+    --ifm-line-height-base: 1.65;
+    --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --ifm-color-primary: #25c2a0;
+}
 
 html::after {
     content: '';
@@ -18,6 +25,22 @@ html::after {
     z-index: 100;
 }
 
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-link {
+    font: var(--ifm-font-size-base) / var(--ifm-line-height-base) var(--ifm-font-family-base)!important;
+}
+
+.nav-link.active {
+    color: var(--ifm-color-primary)!important;
+}
+
+.nav-link:hover {
+    color: var(--ifm-color-primary)!important;
+}
 body {
     font-family: 'Roboto', sans-serif!important;
 }
