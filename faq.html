@@ -28,12 +28,12 @@
     .accordion-button:focus {
       box-shadow: none;
     }
-  
+
     .accordion-button:not(.collapsed) {
       color: white;
       background-color: #000000;
     }
-  
+
     .accordion-button:after {
         background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
     }
@@ -41,16 +41,16 @@
     .accordion-button {
       color: white;
     }
-  
+
     .accordion-button.collapsed {
-      background-color: #000000; 
+      background-color: #000000;
     }
-  
+
     .accordion-button:hover {
       color: white;
     }
     .fixed-size-btn {
-      width: 96px; 
+      width: 96px;
       text-align: center;
     }
 
@@ -65,7 +65,7 @@
       color: gold;
       font-weight: bold;
     }
-    
+
     .checkmark-cell {
       background-color: rgb(0, 59, 9) !important;
       color: rgb(155, 255, 155) !important;
@@ -73,7 +73,7 @@
     }
 
     .xmark-cell {
-      background-color: rgb(59, 0, 9) !important; 
+      background-color: rgb(59, 0, 9) !important;
       color: rgb(255, 155, 155) !important;
       text-align: center;
     }
@@ -107,7 +107,7 @@
     .table thead th:first-child {
       border-top-left-radius: 10px;
     }
-    
+
     .table thead th:last-child {
       border-top-right-radius: 10px;
     }
@@ -115,7 +115,7 @@
     .table tbody tr:last-child td:first-child {
       border-bottom-left-radius: 10px;
     }
-    
+
     .table tbody tr:last-child td:last-child {
       border-bottom-right-radius: 10px;
     }
@@ -128,7 +128,7 @@
       vertical-align: middle;
     }
   </style>
-  
+
 </head>
 
 <body data-bs-theme="dark">
@@ -174,24 +174,24 @@
         </div>
       </div>
     </nav>
-      
+
   </header>
 
   <main>
     <div class="container py-5">
-      <h1 class="text-center mb-5">Frequently Asked Questions</h1> 
-      
+      <h1 class="text-center mb-5">Frequently Asked Questions</h1>
+
       <div class="accordion" id="faqAccordion">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <a class="accordion-button text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#donate" aria-expanded="false" aria-controls="donate" href="#donate">
               How can I donate?
-            </button>
+            </a>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+          <div id="donate" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
             <div class="accordion-body">
               <div class="pb-4">
-                You can donate by clicking on the buttons below. Each game pass provides different benefits. <span class="text-success-emphasis">*</span> 
+                You can donate by clicking on the buttons below. Each game pass provides different benefits. <span class="text-success-emphasis">*</span>
               </div>
                 <div class="table-responsive">
                   <table class="table table-striped">
@@ -213,7 +213,7 @@
                         <th class="text-center">
                           <a href="https://www.roblox.com/game-pass/5411126/Premium-Donation" class="golden-text text-decoration-none fixed-size-btn d-block mx-auto">Premium Donation</a>
                         </th>
-                      </tr> 
+                      </tr>
                     </thead>
                     <tbody>
                       <tr>
@@ -305,24 +305,24 @@
                       </tr>
                     </tbody>
                   </table>
-                  
+
                 </div>
                 <p class="text-success-emphasis">* These perks are only available at participating games.</p>
-                  
+
             </div>
           </div>
         </div>
-      
+
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <a class="accordion-button text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#install" aria-expanded="false" aria-controls="install" href="#install">
                 How to add Kohl's Admin Infinite to my game?
-              </button>
+              </a>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+            <div id="install" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
                 <ol>
-                  <li>Go to the Kohl's Admin Infinite model page on Roblox: 
+                  <li>Go to the Kohl's Admin Infinite model page on Roblox:
                     <a href="https://www.roblox.com/library/172732271/Kohls-Admin-Infinite" class="text-decoration-none">Click here</a>.
                   </li>
                   <li>In Roblox Studio, open your game.</li>
@@ -334,48 +334,48 @@
               </div>
             </div>
           </div>
-      
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <a class="accordion-button text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#broken" aria-expanded="false" aria-controls="broken" href="#broken">
               Is Kohl's Admin Infinite broken right now?
-            </button>
+            </a>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+          <div id="broken" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
             <div class="accordion-body">
               Only if it does not work in the official testing place. If you are experiencing issues, please contact us in the general chat or through direct messages!
             </div>
           </div>
         </div>
-      
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <a class="accordion-button text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#infinite-studios" aria-expanded="false" aria-controls="infinite-studios" href="#infinite-studios">
               What is Infinite Studios' relationship with Kohl's Admin Infinite?
-            </button>
+            </a>
           </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+          <div id="infinite-studios" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
             <div class="accordion-body">
               Infinite Studios is a development group made by Kohl. Kohl's Admin Infinite is made solely by Kohl under the Infinite branding.
             </div>
           </div>
         </div>
-      
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <a class="accordion-button text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#developers" aria-expanded="false" aria-controls="developers" href="#developers>
               Can Kohl's Admin Infinite developers or Infinite Studios members use commands in my game?
-            </button>
+            </a>
           </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+          <div id="developers" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
             <div class="accordion-body">
               They can use the purchasable VIP commands, if they are not disabled.
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
     </div>
   </main>
 
