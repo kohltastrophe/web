@@ -56,19 +56,25 @@ body {
 }
 
 .navbar {
-    /* background: rgba(0, 0, 0, 0.2) !important;   */
+    /* background: rgba(0, 0, 0, 0.2) !important; */
     background: linear-gradient(#000, #0000) !important;
-    height: var(--ifm-navbar-height);
     z-index: 101;
+}
+
+@media (min-width: 769px) {
+    .navbar {
+        height: var(--ifm-navbar-height);
+    }
 }
 
 @media (max-width: 768px) {
     .navbar {
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
-        background: linear-gradient(#000, #0009) !important;
+        background: linear-gradient(#000, rgba(0, 0, 0, 0.1)) !important;
     }
 }
+
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
